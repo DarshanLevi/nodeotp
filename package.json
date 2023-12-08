@@ -1,0 +1,16 @@
+{
+  "name": "nodeotp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "fast-two-sms": "^1.0.4",
+    "twilio": "^4.19.3"
+  }
+}
