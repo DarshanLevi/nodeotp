@@ -1,17 +1,18 @@
 const twilio = require('twilio');
 
+
 // Your Twilio account SID and auth token
 const accountSid = 'AC1e2faad462cc303ee2f45c4ea2f824ca';
-const authToken = '64f23aa289da32b980eae7ec17047d52';
+const authToken = '6087c380e89c2f7cf3d500f6e139720b';
 
 // Create a Twilio client
 const client = twilio(accountSid, authToken);
 
 // Your Twilio phone number (you can get this from the Twilio console)
-const twilioPhoneNumber = '9150603025';
+const twilioPhoneNumber = '1 501 481 1244';
 
 // Recipient's phone number
-const recipientPhoneNumber = '7010014753'; // replace with the actual number
+const recipientPhoneNumber = '9150603025'; // replace with the actual number
 
 // Message to be sent
 const messageBody = 'Test OTP for STMS project';
